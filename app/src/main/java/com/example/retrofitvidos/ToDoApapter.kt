@@ -25,6 +25,7 @@ class ToDoApapter : RecyclerView.Adapter<ToDoApapter.ToDoViewHolder>() {
         }
     }
     private val differ = AsyncListDiffer(this, diffCallback)
+    val test = 0
 
     var todos: List<ToDo>
         get() = differ.currentList
